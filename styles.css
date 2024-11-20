@@ -1,0 +1,53 @@
+@font-face { font-family: Webfont; src: url('fonts/webfont.ttf'); }
+@font-face { font-family: Sunfinter; src: url('fonts/Sufinter.otf'); }
+@font-face { font-family: Dark-Rock; src: url('fonts/Dark\ Rock.ttf'); }
+@font-face { font-family: "PUNKBABE TRAIL"; src: url('fonts/PUNKBABE\ TRIAL.ttf'); }
+
+body#index{
+    text-align: center;
+    background-color: #d6e4c5;
+}
+
+body.recipe{
+    background-color: #e9ecdb;
+}
+
+h1 {
+    font-family: Sunfinter;
+    font-size: 36px;
+    color: rgb(50, 80, 16);
+}
+
+ul {
+    padding-left: 0px;
+}
+
+body#index li{
+    list-style: none;
+}
+
+a {
+    font-family: Webfont, sans-serif;
+    color: black;
+    font-size: 24px;
+}
+
+h1 a {
+    font-family: Webfont, sans-serif;
+    text-decoration: none;
+    color: rgb(20, 24, 22);
+    font-size: 50px;
+}
+
+.steps {
+     list-style-type:armenian;
+}
+
+a.back, div{
+    font-size: 24px;
+    text-align: center;
+}
+
+body.recipes h2 {
+    font-family: Dark-Rock;
+}
